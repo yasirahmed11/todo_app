@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background-color: #eee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.header-wrapper {
+  height: 100px;
+  background-color: #19a98a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header-wrapper .header-title {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+#input-note {
+  padding: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto; }
+  #input-note #note {
+    border: 0;
+    padding: 0;
+    width: 80%;
+    height: 50px;
+    margin-right: 2px;
+    border: 1px solid #19a98a;
+    border-radius: 25px;
+    padding: 0 15px;
+    transition-duration: 0.3s;
+    font-size: 18px; }
+    #input-note #note:focus {
+      font-size: 24px;
+      outline: none; }
+    #input-note #note:hover {
+      font-size: 24px; }
+  #input-note #btn {
+    padding: 0;
+    border: 0;
+    width: 20%;
+    height: 50px;
+    border: 1px solid #19a98a;
+    background-color: #19a98a;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+    transition-duration: 0.3s; }
+    #input-note #btn:focus {
+      outline: none; }
+    #input-note #btn:hover {
+      font-size: 24px; }
+
+#note-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #19a98a;
+  border-radius: 50px;
+  width: 80%;
+  margin: auto;
+  padding: 5px 0;
+  background-color: #19a98a; }
+  #note-wrapper .notes {
+    background-color: white;
+    width: 90%;
+    border-radius: 50px;
+    font-size: 24px;
+    padding: 5px;
+    margin-bottom: 5px; }
+    #note-wrapper .notes:last-child {
+      margin-bottom: 0; }
+    #note-wrapper .notes p {
+      margin: 0;
+      position: relative;
+      padding-left: 15px; }
+    #note-wrapper .notes .delLink {
+      position: absolute;
+      right: 0;
+      border: 0;
+      margin-right: 5px;
+      background-color: #fff;
+      color: white;
+      height: 30px;
+      width: 30px;
+      text-decoration: none;
+      font-size: 12px;
+      text-align: center;
+      background-image: url(../images/delete.png);
+      background-repeat: no-repeat;
+      background-size: 100%; }
+      #note-wrapper .notes .delLink:hover {
+        color: red; }
+
+/*# sourceMappingURL=style.css.map */
